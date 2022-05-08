@@ -1,0 +1,10 @@
+language: java
+
+jdk: openjdk17
+
+# skip installation step
+install: true
+
+script:
+- mvn -f pom.xml clean verify
+
