@@ -13,6 +13,6 @@ class AppTest {
 
     @Test
     public void testSayHello() {
-        assertEquals("Hello", app.sayHello());
+        assertEquals("Hellox", app.sayHello());
     }
 }
