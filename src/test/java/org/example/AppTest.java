@@ -17,6 +17,6 @@ class AppTest {
     @Test
     @DisplayName("Test Say Hello")
     public void testSayHello() {
-        assertEquals("Hellox", app.sayHello());
+        assertEquals("Hello", app.sayHello());
     }
 }
